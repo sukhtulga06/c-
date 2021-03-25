@@ -1,0 +1,12 @@
+#include<iostream>
+//aravtiin_ornii_tsipr
+using namespace std;
+
+int main(){
+	
+	int x;
+	cin>>x;
+	int tsipr=x/10%10;
+	cout<<tsipr;
+	return 0;
+}
